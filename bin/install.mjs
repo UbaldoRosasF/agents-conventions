@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Instalador idempotente de las convenciones de agentes en cualquier proyecto.
-// Uso: bunx github:<user>/agent-conventions init [--with-hook]
+// Uso: bunx github:UbaldoRosasF/agents-conventions init [--with-hook]
 //   init        copia .agents/ y fusiona CLAUDE.md + AGENTS.md (idempotente)
 //   --with-hook además escribe el hook de verificación en .claude/settings.json
 //               (normalmente innecesario: lo aporta el plugin de Claude Code)
@@ -111,5 +111,5 @@ if (WITH_HOOK) log.push(installHook())
 console.log('\n  agent-conventions instaladas en: ' + TARGET)
 for (const l of log) console.log('   • ' + l)
 console.log('\n  Siguiente paso (una sola vez por máquina, para la verificación viva en Claude):')
-console.log('   /plugin marketplace add <user>/agent-conventions')
+console.log('   /plugin marketplace add UbaldoRosasF/agents-conventions')
 console.log('   /plugin install agent-conventions@agent-conventions\n')

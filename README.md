@@ -16,7 +16,7 @@ Dos capas:
 Desde la raíz del proyecto Shopify:
 
 ```bash
-bunx github:<user>/agent-conventions init
+bunx github:UbaldoRosasF/agents-conventions init
 ```
 
 Esto deja commiteable:
@@ -36,7 +36,7 @@ Flag opcional `--with-hook`: además escribe el hook de verificación en `.claud
 ## Verificación viva en Claude (una vez por máquina)
 
 ```text
-/plugin marketplace add <user>/agent-conventions
+/plugin marketplace add UbaldoRosasF/agents-conventions
 /plugin install agent-conventions@agent-conventions
 ```
 
@@ -69,5 +69,5 @@ agent-conventions/
 ## Actualizar las convenciones
 
 Edita `template/agents/**` aquí, haz push, y en cada proyecto vuelve a correr
-`bunx github:<user>/agent-conventions init`. El plugin se actualiza desde Claude con
+`bunx github:UbaldoRosasF/agents-conventions init`. El plugin se actualiza desde Claude con
 `/plugin marketplace update agent-conventions`.
