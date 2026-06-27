@@ -1,0 +1,16 @@
+{
+  "name": "agent-conventions",
+  "version": "1.0.0",
+  "description": "Convenciones CSS/JS/Liquid para themes Shopify (workflow Getmore) + verificación viva por edición. Instalador y plugin de Claude Code.",
+  "type": "module",
+  "bin": {
+    "agent-conventions": "bin/install.mjs"
+  },
+  "files": [
+    "bin",
+    "template",
+    ".claude-plugin",
+    "plugins"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "agent-conventions",
+  "owner": {
+    "name": "Ubaldo Rosas"
+  },
+  "plugins": [
+    {
+      "name": "agent-conventions",
+      "source": "./plugins/agent-conventions",
+      "description": "Verificación viva (Stylelint/ESLint/Theme Check) del archivo editado en themes Shopify con carpeta zrc/. No hace nada en otros proyectos."
+    }
+  ]
+}
