@@ -5,6 +5,5 @@
   "description": "Verifica el archivo editado contra Stylelint/ESLint/Theme Check en themes Shopify con zrc/. Self-gated: silencioso en cualquier otro proyecto.",
   "author": {
     "name": "Ubaldo Rosas"
-  },
-  "hooks": "./hooks/hooks.json"
+  }
 }
